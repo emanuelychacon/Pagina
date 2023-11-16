@@ -1,0 +1,354 @@
+
+
+body{
+    background-color: rgb(red, green, blue);
+    margin: 0px;
+    padding: 0px;
+}
+.Principal{
+    width: 360px;
+    height: 740px;
+    margin: auto;
+    background-color: crimson;
+}
+.Navegação{
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.Botão{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Botão:hover{
+    color: sienna;
+    font-weight: bold;
+}
+.Texto001{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', jCourier, monospace;
+    text-align: center;
+    font-size: 30px;
+}
+.Area001{
+    width: 90%;
+    height: 460px;
+    background-color: black;
+     margin: auto;
+     border-radius: 20px;
+     display:flex ;
+     justify-content:space-around ;
+     flex-direction: column;
+}
+.Area002{
+    width: 85%;
+    height: 1200px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   background-image: url(/Imagem/para\ todos.jpg);
+    background-size: cover;
+}
+.Texto002{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.Parte{
+    width: 360px;
+    margin: auto;
+    background-color: crimson;
+}
+.Parte01{
+    width: 360px;
+    height: 1200px ;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Parte02{
+    width: 250px;
+    height: 350px;
+    background-image: url(/Imagem/outer\ banks\ capa\ 01.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.Parte03{
+    width: 250px;
+    height: 350px;
+    background-image: url(/Imagem/outer\ banks\ p2.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+.Parte04{
+    width: 250px;
+    height: 350px;
+    background-image: url(/Imagem/outer\ banks\ p3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.Exemplo01{
+    width:340px ;
+    height: 200px;
+    margin: auto;
+    color: aliceblue;
+}
+.Parte05{
+    width: 340px ;
+    height: 150px ;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.Parte06{
+    width: 90px ;
+    height: 90px;
+    border-radius: 50px;
+    background-image: url(/Imagem/simbolo\ da\ netflix.webp);
+    background-size: cover;
+
+}
+.Parte07{
+    width: 90px ;
+    height: 90px;
+    border-radius: 50px;
+    background-image: url(/Imagem/you\ tube.jpg);
+   background-size: cover;
+
+}
+.Parte08{
+    width: 90px ;
+    height: 90px;
+    background-color: rgb(52, 68, 68);
+    border-radius: 70px;
+    background-image: url(/Imagem/prime\ 02.png);
+    background-size: cover;
+}
+.Parte09{
+    width: 360px;
+    height: 930px;
+    background-color: crimson;
+    margin: auto;
+}
+.Parte10{
+    width: 360px;
+    height: 320px ;
+    background-color: black;
+     display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.Parte11{
+    width:200px;
+    height: 200px;
+    background-color: azure;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(/Imagem/animes01.jpeg);
+    background-size: cover;
+}
+.Parte12{
+    width:340px ;
+    height: 200px;
+    margin: auto;
+    margin-top: 130px;
+    color: aliceblue;
+    text-align: center;
+}
+.Parte13{
+    width: 200px ;
+    height:250px ;
+    background-color: bisque;
+    margin: auto;
+    background-image: url(/Imagem/Naruto\ e\ seus\ amigos.jpg);
+    background-size: cover;
+}
+.Parte14{
+    width: 120px;
+    height:50px ;
+    background-color: black;
+    margin-top: 10px;
+}
+.Parte15{
+    width: 120px;
+    height:50px ;
+    background-color: rgb(0, 0, 0);
+    margin-left: 120px;
+    margin-top: -50px;
+}
+.Parte16{
+    width: 120px;
+    height:50px ;
+    background-color: rgb(14, 13, 13);
+   margin-left: 240px;
+    margin-top: -50px;
+}
+/* x-Large (Aplicação para desktops, 1200px and up)*/
+ @media(min-width:1200px){
+    .Principal{
+        width: 1000px;
+        height: 700px;
+}
+.Navegacão{
+    width: 100%;
+}
+.Texto001{
+    height: 250PX;
+}
+.Area001{
+    width: 900px;
+    height: 300px;
+    flex-direction: row;
+}
+.Area002{
+     width: 40%;
+     height: 260px;
+}
+.Texto002{
+    width: 40%;
+    height: 260px;
+}
+ .Parte{
+    width: 1000px;
+    height: 650px;
+    background-color: crimson;
+    margin: auto;
+}
+.Parte01{
+    width: 950px;
+    height: 380px ;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.Parte02{
+    width: 250px;
+    height: 350px;
+    
+    background-size: cover;
+    border-radius: 10px;
+}
+.Parte03{
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.Parte04{
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.Exemplo01{
+    width:400px ;
+    height: 200px;
+    margin-left: 580px;
+    color: aliceblue;
+}
+.Parte05{
+    width: 400px ;
+    height: 150px ;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-around;
+}
+.Parte06{
+    width: 90px ;
+    height: 90px;
+    border-radius: 50px;
+    background-image: url(/Imagem/simbolo\ da\ netflix.webp);
+    background-size: cover;
+
+}
+.Parte07{
+    width: 90px ;
+    height: 90px;
+    border-radius: 50px;
+    background-image: url(/Imagem/you\ tube.jpg);
+   background-size: cover;
+
+}
+.Parte08{
+    width: 90px ;
+    height: 90px;
+    background-color: rgb(52, 68, 68);
+    border-radius: 70px;
+    background-image: url(/Imagem/prime\ 02.png);
+    background-size: cover;
+}
+.Parte09{
+    width: 1000px;
+    height: 750px;
+    background-color: crimson;
+    margin: auto;
+}
+.Parte10{
+    width: 940px;
+    height: 320px ;
+    background-color: black;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.Parte11{
+    width:200px;
+    height: 200px;
+    background-color: azure;
+    align-items: center;
+    margin-left: 90px;
+    border-radius: 10px;
+    background-image: url(/Imagem/animes01.jpeg);
+    background-size: cover;
+}
+.Parte12{
+    width:400px ;
+    height: 200px;
+    margin-left: 90px;
+    margin-top: 130px;
+    color: aliceblue;
+}
+.Parte13{
+    width: 200px ;
+    height:250px ;
+    background-color: bisque;
+    margin-left: 750px;
+    margin-top: -210px;
+    background-image: url(/Imagem/Naruto\ e\ seus\ amigos.jpg);
+}
+.Parte14{
+    width: 350px;
+    height:50px ;
+    background-color: black;
+    margin-top: 10px;
+}
+.Parte15{
+    width: 350px;
+    height:50px ;
+    background-color: black;
+    margin-left: 650px;
+    margin-top: -50px;
+}
+.Parte16{
+    width: 350px;
+    height:50px ;
+    background-color: black;
+    margin-left: 350PX;
+    margin-top: -50px;
+}
+ }
